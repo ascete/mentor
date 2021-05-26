@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 class DataReader {
 
-    private int number1;
-    private int number2;
-    private int number3;
-    private int number4;
+    private int number1 =0;
+    private int number2 = 0;
+    private int number3 = 0;
+    private int number4 = 0;
     private char operation;
     private boolean exitFlag;
     private char exitCharacter;
@@ -18,6 +18,7 @@ class DataReader {
 
 
     public void read() {
+
         String arab = "1 2 3 4 5 6 7 8 9 10";
         String roman = "I II III IV V VI VII VIII IX X";
         System.out.println("Введите выражение, состоящее из двух целых чисел от 0 до 10");

@@ -1,10 +1,13 @@
+
+
 public class Main {
 
     private static final char exitCharacter = '!';
 
     public static void main(String[] args) {
-        DataReader reader = new DataReader(exitCharacter);
+
         while (true) {
+            DataReader reader = new DataReader(exitCharacter);
             try {
                 reader.read();
             } catch (RuntimeException e) {
@@ -24,6 +27,8 @@ public class Main {
             System.out.println(resultrom);}
         }
     }
+
+
 }
 
 
